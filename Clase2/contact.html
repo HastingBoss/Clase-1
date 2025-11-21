@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        Contacto
+    </h1>
+    <h2>
+        Esta es la pagina de contacto
+    </h2>
+
+    <!-- Formularios con la etiqueta Form -->
+
+    <form>
+        <div>
+            <!-- Dentro del label va el texto que ve el usuario -->
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre aqui">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <!-- Dentro de Type elegimos lo que el usuario debe insertar, en este caso un email bien escrito, pero podria ser hasta colores -->
+            <input type="email" id="email" name="email" placeholder="Tu email aqui">
+        </div>
+        <br>
+        <div>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Escribe tu mensaje aqui"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="color">Elige un color de Grimorio</label>
+            <input type="color" name="color" id="Grimoire_color" value="#ff0000">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Fecha de nacimiento:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <br>
+        <div>
+            <label for="appointment">Elige una hora para tu cita:</label>
+            <input type="time" id="appointment" name="appointment">
+        </div>
+        <br>
+        <div>
+            <label for="quantity">Cantidad de grimorios:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+        </div>
+        <br>
+        <div>
+            <label for="website">Tu sitio web:</label>
+            <input type="url" id="website" name="website" placeholder="https://tusitio.com">
+        </div>
+        <br>
+        <div>
+            <label for="file">Sube el contenido de tu grimorio:</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <br>
+        <div>
+            <label for="range">Nivel de poder del grimorio:</label>
+            <input type="range" id="range" name="range" min="1" max="100" value="50">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Suscribirme al boletin de grimorios</label>
+        </div>
+        <br>
+        <div>
+            <input type="numbre" id="Numero de contacto" name="contact_number" min="1" max="5">
+            <label for="contact_number">Numero de contacto</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>

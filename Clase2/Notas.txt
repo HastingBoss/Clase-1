@@ -1,0 +1,12 @@
+Clase 1
+VSC
+Crear carpetas y archivos
+
+Clase 2
+Etiquetas con Cierre y Autocierre
+Boton que lleva a otra url, no es
+un boton es un ancla
+Boton que nos desplaza por la web es el correcto Boton
+Nesting (anidamiento)
+Sistema de gerarquia en codigo
+Indentación
