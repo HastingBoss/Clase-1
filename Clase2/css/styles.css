@@ -1,0 +1,92 @@
+header {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 2rem;
+    background-color: #fcecb9;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-container {
+    background-color: #83420c;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+background {
+    background-color: #fcecb9;
+}
+
+.titulo {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #2e0e79;
+}
+
+.elemento-1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20;
+    color: #ffffff;
+    background-color: #830c0c;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    background-color: #830c0c;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    font-weight: lighter;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(245, 172, 14);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+    font-weight: normal;
+    color: #777;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(245, 172, 14);
+}
+
+.pill {
+    display: inline-block;
+    padding: 7px 7px;
+    border-radius: 9999px;
+    background-color: #830c0c;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-right: 10px;
+}
+
+.pill-gris {
+    background-color: #6b7280;
+}
+
+.pill-bordoeau {
+    background-color: #831919;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial', sans-serif;
+}

@@ -11,13 +11,15 @@
     <!-- El title es el nombre que aparece arriba en la pagina -->
     <meta name="description" content="Grimorios a pedido">
     <!-- desc es la descripcion de la pagina al buscarla en algun buscador -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Link le indica a que archivo de estilos referirse -->
 </head>
 
 <body>
     <!-- Cuerpo/contenido del documento orientado a lo que ve el usuario final -->
     <!-- SEO: Search engine optimization -->
     <header>
-        <h1>
+        <h1 class="titulo">
             Grimorios de Hasting
         </h1>
         <h2>
@@ -25,10 +27,14 @@
         </h2>
     </header>
 
-    <nav>
-        <h3><a href="./index.html#tienda">Tienda</a></h3>
-        <h3><a href="./contact.html">Contacto</a></h3>
-    </nav>
+    <section class="navbar-container">
+        <nav>
+            <span class="pill pill-bordo"><a class="link" href="./index.html#wiki">Wiki</a></span>
+            <span class="pill pill-bordo"><a class="link" href="./index.html#stonks">Beneficios</a></span>
+            <span class="pill pill-bordo"><a class="link" href="./index.html#tienda">Tienda</a></span>
+            <span class="pill pill-gris"><a class="link" href="./contact.html">Contacto</a></span>
+        </nav>
+    </section>
 
     <main>
         <section>
@@ -102,7 +108,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="stonks">
             <h2>Farmea y consigue grandes beneficios</h2>
             <video src="./video/573258_Business_Stock_1920x1080.mp4" autoplay loop muted width="600px"></video>
             <!-- Con autoplay el video se reproduce solo, con controls le damos al usuario la posibilidad de tener controles del video , con loop se reproduce infinitamente y con muted hacemos que el video no tenga sonido-->
@@ -110,6 +116,7 @@
         </section>
 
         <section>
+            <!-- Los Id no llevan tildes, espacios ni comas. Ademas debemos respetar un solo idioma dentro de los ids de nuestra pagina -->
             <div id="tienda">
                 <h2>Visitanos en nuestra tienda fisica</h2>
                 <iframe
@@ -117,7 +124,7 @@
                     width="600px" height="450px" style="border:0;" allowfullscreen loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
+            <div id="wiki">
                 <h2>Mas informacion sobre grimorios</h2>
                 <iframe width="1280px" height="720px" allowfullscreen src="https://warframe.fandom.com/wiki/Grimoire"
                     frameborder="0"></iframe>
