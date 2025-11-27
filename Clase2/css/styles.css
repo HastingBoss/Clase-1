@@ -1,92 +1,104 @@
 header {
     margin-bottom: 1rem;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px #0000001a;
 }
 
 main {
     padding: 2rem;
-    background-color: #fcecb9;
+    background-color: #32133b;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333;
-    color: white;
+    background-color: #4d275c;
+    color: #ffffff;
     font-family: 'Arial', sans-serif;
 }
 
 .navbar-container {
-    background-color: #83420c;
+    background-color: #61205e;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 8px;
 }
 background {
-    background-color: #fcecb9;
+    background-color: #220020;
 }
 
 .titulo {
     font-family: 'Arial', sans-serif;
     color: #ffffff;
-    background-color: #2e0e79;
+    background-color: #1a044e;
 }
 
 .elemento-1 {
     font-family: 'Arial', sans-serif;
     font-size: 20;
     color: #ffffff;
-    background-color: #830c0c;
+    background-color: #830c69;
 }
 
 h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
     font-family: 'Arial', sans-serif;
-    background-color: #830c0c;
+    background-color: #830c83;
 }
 
 h2 {
     font-size: 2rem;
     margin-bottom: 0.8rem;
     font-weight: lighter;
-    color: #555;
+    color: #ffffff;
     font-family: 'Arial', sans-serif;
-    background-color: rgb(245, 172, 14);
+    background-color: #990ef5;
 }
 
 h3 {
     font-size: 1.5rem;
     margin-bottom: 0.6rem;
     font-weight: normal;
-    color: #777;
+    color: #ffffff;
     font-family: 'Arial', sans-serif;
-    background-color: rgb(245, 172, 14);
+    background-color: #350066;
 }
 
 .pill {
     display: inline-block;
     padding: 7px 7px;
     border-radius: 9999px;
-    background-color: #830c0c;
+    background-color: #a50089;
     color: white;
     font-family: 'Arial', sans-serif;
     margin-right: 10px;
 }
 
 .pill-gris {
-    background-color: #6b7280;
+    background-color: #814b88;
 }
 
-.pill-bordoeau {
-    background-color: #831919;
+.pill-rosa {
+    background-color: #ad0da5;
 }
 
 .link {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     font-family: 'Arial', sans-serif;
 }
+
+.main-content {
+    background-color: #2a0b3d;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.section {
+    margin-bottom: 2rem;
+}    
